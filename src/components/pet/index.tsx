@@ -28,10 +28,6 @@ const Pet = ({ Child }: PetProps) => {
       )
       p.engine.resourceManager
         .load<GLTFResource>(p.path)
-        .onProgress((progress: number) => {
-          // TODO: 加载进度信息
-          console.log(progress)
-        })
         .then((gltf) => {
           const { defaultSceneRoot } = gltf
           p.rootEntity.addChild(defaultSceneRoot)
