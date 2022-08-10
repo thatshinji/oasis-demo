@@ -21,6 +21,6 @@
     },
     "outDir": "dist"
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx", "vite-env.d.ts", "src/typings/index.d.ts"],
+  "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

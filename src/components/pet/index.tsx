@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Base from '@/state/base'
+import Base from '../../state/base'
 import { Animator, GLTFResource } from 'oasis-engine'
 
 export type PetProps = {
