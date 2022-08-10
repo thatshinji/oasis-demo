@@ -9,6 +9,6 @@ export default defineConfig({
     alias: {
       '@': join(__dirname, "src"),
     },
-    extensions: ['.mjs', '.tsx', '.jsx', '.js', '.json']
+    extensions: ['.tsx', '.jsx', '.js', '.json']
   }
 })
